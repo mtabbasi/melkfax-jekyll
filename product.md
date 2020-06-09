@@ -6,14 +6,15 @@
     <head>
      
    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ملک فکس | موتور جست وجوی ملک </title>
-  <meta name="description" content="خرید خانه کلنگی.اجاره آپارتمان.فروش ملک.فروش زمین.فروش آپارتمان.قیمت آپارتمان.قیمت زمین.آپارتمان نوساز" />
-<meta name="keywords" content="ملک فکس,خرید ,آپارتمان,موتور جست و جوی ملک,مرجع خرید,اجاره,رهن,پیش فروش,کلنگی,مسکن,house,home,iran,melkfax,home,rent,melk,kharide,ejare,aparteman,melkfax.ir" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>محصولات ملک فکس </title>
+  <meta name="description" content="ربات مشاور املاک.فایلینگ املاک.جستجوگر ملک.املاک.ربات مشاورین املاک" />
+<meta name="keywords" content="محصولات,کلنگی,آپارتمان,ملک ,خانه,املاک,فایلینگ املاک,جست و جو گر ملک,ربات ملک,ملک فکس" />
 <meta name="language" content="Persian" />
     <meta http-equiv='Content-Language' content='fa' />
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
        <link rel="icon" href="https://melkfax.s3.ir-thr-at1.arvanstorage.com/logo.png" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -35,15 +36,16 @@
            
             
             .back-image{
-                background-image: url("https://melkfax.s3.ir-thr-at1.arvanstorage.com/about.svg");
+                background-image: url("https://melkfax.s3.ir-thr-at1.arvanstorage.com/product.svg");
                 height: 100vh;
                 width:100%;
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position:center;
-                
                 z-index: -1;
-                opacity: .2;
+                opacity: .1;
+                filter: blur(2px);
+                -webkit-filter: blur(2px);
  
             }
             .navbar {
@@ -82,7 +84,31 @@ span{
 .navbar{
     border-bottom: 1px solid #1d9aa3;
 }
-            
+.products{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 300;
+    padding-top: 100px;
+    
+
+}
+#bot{
+    background-color: #1f2029;
+    border-radius: 50%;
+    border: 2px solid #1d9aa3;
+}
+button{
+background-color: rgba(255,255,255,0.1);
+color: white;
+border-color: #1d9aa3;
+
+}
+button:hover{
+    box-shadow: 3px 3px 5px #1d9aa3;
+}
         </style>
     </head>
         <body>
@@ -119,12 +145,27 @@ span{
     </div>
 </nav>
     <div class='back-image'></div>
-        <div class='article'>
-            <p>ملک فکس موتور جست و جوی ملک میباشد.ملک فکس آگهی های ملک را از سایت های مختلف جمع آوری میکند و در اختیار شما قرار میدهد.شما برای پیدا کردن ملک احتمالا سایت ها و روزنامه های مختلف را چک میکنید اما ملک فکس این امکان را برای شما فراهم کرده که آگهی های ملک را از سایت های مختلف در یک جا با هم مقایسه کنید.ملک فکس پیدا کردن ملک مناسب را برای شما تسهیل میکند.	
-</p>
-
+        <div class='article'></div>
+    <div class='text-center'><a href="https://www.freepik.com/free-photos-vectors/smartphone">Smartphone vector created by stories - www.freepik.com</a></div>
+        <div class='products'>
+        <div class='product'>
+            <div class='row'>
+            <div class='col-sm-12  text-center'>
+                    <img id='bot' src='https://melkfax.s3.ir-thr-at1.arvanstorage.com/bot.svg' width='100px' height='100px'>
+                </div>
+                <div class='col-sm-12  text-center'>
+                    <h4>ربات ارسال آگهی ویژه مشاورین املاک</h4>
+                </div>
+                    <div class='col-sm-12 text-center'>
+                    <p>مشاورین املاک میتوانند با استفاده از این سرویس آگهی های شخصی سایت های دیوار ، شیپور و سایت های مرتبط را دریافت کنند</p>
+                </div>
+                    <div class='col-sm-12 text-center'>
+                    <a href='https://t.me/melkfax_bot' target='_blank'><button class='button'>لینک ربات</button></a>
+                </div>
+            </div>
         </div>
-    <div class='text-center'><a href="https://www.freepik.com/free-photos-vectors/business">Business vector created by stories - www.freepik.com</a></div>
+            
+        </div>
         </div>
     </body>
 </html>

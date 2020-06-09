@@ -6,7 +6,7 @@
     <head>
      
    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ملک فکس | موتور جست وجوی ملک </title>
   <meta name="description" content="خرید خانه کلنگی.اجاره آپارتمان.فروش ملک.فروش زمین.فروش آپارتمان.قیمت آپارتمان.قیمت زمین.آپارتمان نوساز" />
 <meta name="keywords" content="ملک فکس,خرید ,آپارتمان,موتور جست و جوی ملک,مرجع خرید,اجاره,رهن,پیش فروش,کلنگی,مسکن,house,home,iran,melkfax,home,rent,melk,kharide,ejare,aparteman,melkfax.ir" />
@@ -14,6 +14,7 @@
     <meta http-equiv='Content-Language' content='fa' />
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
        <link rel="icon" href="https://melkfax.s3.ir-thr-at1.arvanstorage.com/logo.png" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -35,7 +36,7 @@
            
             
             .back-image{
-                background-image: url("https://melkfax.s3.ir-thr-at1.arvanstorage.com/about.svg");
+                background-image: url("https://melkfax.s3.ir-thr-at1.arvanstorage.com/contact3.svg");
                 height: 100vh;
                 width:100%;
                 background-repeat: no-repeat;
@@ -60,18 +61,6 @@ a.nav-link{
 .navbar-toggler {
   border-color: rgba(0,0,0,0.1);
 }
-.article{
-   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-    
-    
-}
 .navbar-brand{
     margin-right: auto;
     margin-left: auto;
@@ -79,8 +68,26 @@ a.nav-link{
 span{
     font-size: 16px;
 }
+.article{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  
+}
+.contact{
+    border: 1px solid #40E0D0;
+    background-color:  #1f2029;
+    border-radius: 5px;
+    margin: 10px;
+}
 .navbar{
-    border-bottom: 1px solid #1d9aa3;
+    border-bottom: 1px solid #40E0D0;
+}
+#social_media{
+    display: none;
 }
             
         </style>
@@ -119,14 +126,21 @@ span{
     </div>
 </nav>
     <div class='back-image'></div>
-        <div class='article'>
-            <p>ملک فکس موتور جست و جوی ملک میباشد.ملک فکس آگهی های ملک را از سایت های مختلف جمع آوری میکند و در اختیار شما قرار میدهد.شما برای پیدا کردن ملک احتمالا سایت ها و روزنامه های مختلف را چک میکنید اما ملک فکس این امکان را برای شما فراهم کرده که آگهی های ملک را از سایت های مختلف در یک جا با هم مقایسه کنید.ملک فکس پیدا کردن ملک مناسب را برای شما تسهیل میکند.	
-</p>
-
-        </div>
-    <div class='text-center'><a href="https://www.freepik.com/free-photos-vectors/business">Business vector created by stories - www.freepik.com</a></div>
+    <div class='row article'>
+    <div class='col-sm-2 text-center'></div>
+    <div class='col-sm-4 text-center contact'>ایمیل<br><a href='mailto:melkfax@gmail.com'>melkfax@gmail.com</a></div>
+    <div class='col-sm-4 text-center contact '>آیدی تلگرام جهت پشتیبانی<br><a  href='https://t.me/melkfax_admin' target='_blank'>melkfax_admin@</a></div>
+    <div class='col-sm-2 text-center '></div>
+        <div id='social_media'>
+    <div class='col-sm-12 my-4 text-center'>ما را در شبکه های اجتماعی دنبال کنید</div>
+    <div class='col-sm-12 text-center'><img class='mx-2' src='https://image.flaticon.com/icons/svg/1384/1384063.svg' width='50' height='50'><img class='mx-2'src='https://image.flaticon.com/icons/svg/174/174857.svg' width='50' height='50'><img class='mx-2' src='https://image.flaticon.com/icons/svg/2111/2111646.svg' width='50' height='50'></div>
+    </div>
+    </div>
+        
+    <div class='text-center'><a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a></div>
         </div>
     </body>
 </html>
 
+        
         
