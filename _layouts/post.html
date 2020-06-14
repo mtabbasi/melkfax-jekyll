@@ -80,10 +80,14 @@ a:hover {
 
 <body>
    {% include blog-navigation.html %}
-<div class="container">
-	<img src="https://cdn.yjc.ir/files/fa/news/1399/3/19/12035644_207.jpg" width="100%" height="300px">
+<div class="container"  itemscope itemtype="http://schema.org/Article">
+	<img itemprop="image" src="https://cdn.yjc.ir/files/fa/news/1399/3/19/12035644_207.jpg" width="100%" height="300px">
 	<div class='mt-4'>
-		{{ content }}  
+  <h1 itemprop="headline">{{page.title}}</h1>
+  <h6 itemprop="abstract">{{page.subtitle}}</h6>
+		{{ content }}
+  <span itemprop="datePublished">{{page.date|date: '%Y-%m-%d'}}</span>
+  <b>منبع : <a itemprop="author" href="{{page.source-url}}">{{page.site}}</a></b>
 	</div>
 </div>
 </body>
