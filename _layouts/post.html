@@ -12,13 +12,15 @@
   gtag('config', 'UA-169029506-1');
 </script>
 <script type='module'>
- import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
 const el = document.createElement('pwa-update');
 document.body.appendChild(el);
 </script>
-  <title>Bootstrap Example</title>
+  <title>{{page.title}}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{page.description}}" />
+  <meta name="keywords" content="{{page.keyword}}" />
   <link rel='manifest' href='/manifest.json'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -81,7 +83,7 @@ a:hover {
 <div class="container">
 	<img src="https://cdn.yjc.ir/files/fa/news/1399/3/19/12035644_207.jpg" width="100%" height="300px">
 	<div class='mt-4'>
-		{{ content }}
+		{{ content }}  
 	</div>
 </div>
 </body>

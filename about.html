@@ -1,4 +1,5 @@
-
+---
+---
 <!DOCTYPE html>
 <html lang="fa" dir='rtl'>
     <head>
@@ -11,13 +12,19 @@
 
   gtag('config', 'UA-169029506-1');
 </script>
-
+<script type='module'>
+ import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+</script>
    <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ملک فکس | موتور جست وجوی ملک </title>
   <meta name="description" content="خرید خانه کلنگی.اجاره آپارتمان.فروش ملک.فروش زمین.فروش آپارتمان.قیمت آپارتمان.قیمت زمین.آپارتمان نوساز" />
 <meta name="keywords" content="ملک فکس,خرید ,آپارتمان,موتور جست و جوی ملک,مرجع خرید,اجاره,رهن,پیش فروش,کلنگی,مسکن,house,home,iran,melkfax,home,rent,melk,kharide,ejare,aparteman,melkfax.ir" />
 <meta name="language" content="Persian" />
+       <link rel='manifest' href='/manifest.json'>
+
     <meta http-equiv='Content-Language' content='fa' />
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
        <link rel="icon" href="https://melkfax.s3.ir-thr-at1.arvanstorage.com/logo.png" sizes="16x16">
@@ -95,36 +102,7 @@ span{
         <body>
         <div class='container'>
     <!-- A grey horizontal navbar that becomes vertical on small screens -->
-<nav class="navbar navbar-expand-md  fixed-top">
-  <!-- Toggler/collapsibe Button -->
-    <a class="navbar-brand" href="/"><div class='row'><div class='col-sm-12 text-center'><img src='https://image.flaticon.com/icons/svg/1295/1295232.svg' width='40' height='40'><span style='background: -webkit-linear-gradient(#08afe8, #24eaa4);-webkit-background-clip: text;-webkit-text-fill-color: transparent;'>ملک فکس</span></div></div></a>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-
-  <!-- Links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-
-  <ul class="navbar-nav">
-    <!--<li class="nav-item">
-      <a class="nav-link" href="/blog">بلاگ</a>
-    </li>-->
-  <li class="nav-item">
-      <a class="nav-link" href="/product">محصولات</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/about">درباره ما</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/contact">تماس باما</a>
-    </li>
-    
-      
-  </ul>
-    </div>
-</nav>
+{% include main-navigation.html %}
     <div class='back-image'></div>
         <div class='article'>
             <p>ملک فکس موتور جست و جوی ملک میباشد.ملک فکس آگهی های ملک را از سایت های مختلف جمع آوری میکند و در اختیار شما قرار میدهد.شما برای پیدا کردن ملک احتمالا سایت ها و روزنامه های مختلف را چک میکنید اما ملک فکس این امکان را برای شما فراهم کرده که آگهی های ملک را از سایت های مختلف در یک جا با هم مقایسه کنید.ملک فکس پیدا کردن ملک مناسب را برای شما تسهیل میکند.	

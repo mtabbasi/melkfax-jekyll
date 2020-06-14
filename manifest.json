@@ -24,27 +24,23 @@ layout: none
 		},
     {
       "src": "https://melkfax.s3.ir-thr-at1.arvanstorage.com/neww.svg",
-          "type": "image/svg",
           "sizes": "225x150"
 
       
     },
      {
       "src": "https://melkfax.s3.ir-thr-at1.arvanstorage.com/product.svg",
-      "type": "image/svg",
       "sizes": "158x150"
 
       
     },
      {
       "src": "https://melkfax.s3.ir-thr-at1.arvanstorage.com/contact3.svg",
-      "type": "image/svg",
       "sizes": "161x150"
       
     },
     {
       "src": "https://melkfax.s3.ir-thr-at1.arvanstorage.com/about.svg",
-      "type": "image/svg",
       "sizes": "149x150"
       
     }
