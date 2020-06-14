@@ -3,8 +3,8 @@
 	"lang" : "fa",
 	"name" : "ملک فکس | موتور جست وجوی ملک",
 	"scope" : "/",
-	"display" : "browser",
-	"start_url" : "https://melkfax.ir/",
+	"display" : "fullscreen",
+	"start_url" : "https://melkfax.ir",
 	"short_name" : "",
 	"theme_color" : "transparent",
 	"description" : "خرید خانه کلنگی.اجاره آپارتمان.فروش ملک.فروش زمین.فروش آپارتمان.قیمت آپارتمان.قیمت زمین.آپارتمان نوساز",
@@ -15,8 +15,35 @@
 	"icons" : [
 		{
 			"src": "https://melkfax.s3.ir-thr-at1.arvanstorage.com/logo.png",
-			"sizes": "16x16"
-		}],
+			"sizes": "512x512"
+		},
+    {
+      "src": "https://melkfax.s3.ir-thr-at1.arvanstorage.com/neww.svg",
+          "type": "image/svg",
+          "sizes": "225x150"
+
+      
+    },
+     {
+      "src": "https://melkfax.s3.ir-thr-at1.arvanstorage.com/product.svg",
+      "type": "image/svg",
+      "sizes": "158x150"
+
+      
+    },
+     {
+      "src": "https://melkfax.s3.ir-thr-at1.arvanstorage.com/contact3.svg",
+      "type": "image/svg",
+      "sizes": "161x150"
+      
+    },
+    {
+      "src": "https://melkfax.s3.ir-thr-at1.arvanstorage.com/about.svg",
+      "type": "image/svg",
+      "sizes": "149x150"
+      
+    }
+    ],
 	"url" : "https://melkfax.ir",
 	"generated" : "true"
 }
