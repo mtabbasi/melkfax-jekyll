@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/2018/08/20/fouroush-maskan-dar-bourse.html</loc>
+<lastmod>2018-08-20T00:00:00+04:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2020/06/15/dont-buy-home.html</loc>
+<lastmod>2020-06-15T00:00:00+04:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/contact.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/product.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/offline.html</loc>
+<lastmod>2020-06-14T22:41:04+04:30</lastmod>
+</url>
+</urlset>
