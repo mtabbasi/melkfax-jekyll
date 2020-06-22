@@ -7,7 +7,7 @@ title: Blog
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="{{ post.url }}">
       <div class='overflow-hidden'>
-      <img src="{{post.image}}" width='100%' height='150px'/>  
+      <img class='lazyload' data-src="{{post.image}}" width='100%' height='150px'/>  
       </div>      
       <h3>{{ post.title }}</h3>
       {{ post.subtitle }}<br>
