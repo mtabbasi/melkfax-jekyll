@@ -1,0 +1,148 @@
+---
+---
+<!DOCTYPE html>
+<html lang="fa" dir='rtl'>
+    <head>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169029506-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169029506-1');
+</script>
+<script type='module'>
+ import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+</script>
+<!-- Hotjar Tracking Code for melkfax.ir -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1858218,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ملک فکس | موتور جست وجوی ملک </title>
+  <meta name="description" content="خرید خانه کلنگی.اجاره آپارتمان.فروش ملک.فروش زمین.فروش آپارتمان.قیمت آپارتمان.قیمت زمین.آپارتمان نوساز" />
+<meta name="keywords" content="ملک فکس,خرید ,آپارتمان,موتور جست و جوی ملک,مرجع خرید,اجاره,رهن,پیش فروش,کلنگی,مسکن,house,home,iran,melkfax,home,rent,melk,kharide,ejare,aparteman,melkfax.ir" />
+<meta name="language" content="Persian" />
+       <link rel='manifest' href='/manifest.json'>
+
+    <meta http-equiv='Content-Language' content='fa' />
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+       <link rel="icon" href="https://melkfax.s3.ir-thr-at1.arvanstorage.com/logo.png" sizes="16x16">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+        <style>
+    @import url("https://cdn.fontcdn.ir/Font/Persian/Samim/Samim.css");
+
+        body ,html{
+            background-color:#1f2029;
+            font-family:Samim;
+            overflow-x: hidden;
+            color:#ffffff;
+            
+        }
+        a{
+            color:#ffffff !important;
+        }
+           
+            
+            .back-image{
+                background-image: url("https://melkfax.s3.ir-thr-at1.arvanstorage.com/about.svg");
+                height: 100vh;
+                width:100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position:center;
+                
+                z-index: -1;
+                opacity: .2;
+ 
+            }
+            .navbar {
+    background-color: #1f2029 !important;
+}
+ .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+a.nav-link{
+  text-align: center;
+  vertical-align: middle;
+  
+}
+.navbar-toggler {
+  border-color: rgba(0,0,0,0.1);
+}
+.article{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+    
+    
+}
+.navbar-brand{
+    margin-right: auto;
+    margin-left: auto;
+}
+span{
+    font-size: 16px;
+}
+.navbar{
+    border-bottom: 1px solid #1d9aa3;
+}
+            
+        </style>
+    </head>
+        <body>
+        <div class='container'>
+    <!-- A grey horizontal navbar that becomes vertical on small screens -->
+{% include main-navigation.html %}
+<table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for member in site.data.arak %}
+  <tr>
+      <th scope="row">{{forloop.index}}</th>
+      <td>{{member.province}}</td>
+      <td>{{member.city}}</td>
+      <td>{{member.id}}</td>
+      <td>{{member.name}}</td>
+      <td>{{member.phone}}</td>
+      <td>{{member.phone_number}}</td>
+      
+    </tr>
+{% endfor %}
+</tbody>
+</table>
+        </div>
+    </body>
+</html>
+
+        
