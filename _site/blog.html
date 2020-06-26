@@ -105,6 +105,16 @@ a:hover {
 .row.display-flex > [class*='col-'] {
   flex-grow: 1;
 }
+.lazyload,
+.lazyloading {
+  opacity: 0; }
+
+.loading,
+.lazyload,
+.lazyloaded,
+.image {
+  opacity: 1;
+  transition: 2s cubic-bezier(0.215, 0.61, 0.355, 1); }
   </style>
 </head>
 
@@ -154,9 +164,20 @@ a:hover {
 <div class='row display-flex my-5 justify-content-center'>
   
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
+      <a href="/2020/06/26/metri_17_to_19.html">
+      <div class='overflow-hidden'>
+      <img class='lazyload ' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/home_price" width='100%' height='150px'/>  
+      </div>      
+      <h3>میانگین هر متر مربع مسکن در تهران از ۱۷ میلیون به ۱۹ میلیون تومان رسید</h3>
+      دفتر اقتصاد مسکن وزارت راه و شهرسازی در جدیدترین گزارش خود از افزایش ۲ میلیون تومانی مسکن در هر متر مربع در تهران خبر داده است.<br>
+     
+      </a>
+    </div>
+  
+    <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/24/khane_miliardi.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://images.unsplash.com/photo-1490309465502-86ef8656e567?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://images.unsplash.com/photo-1490309465502-86ef8656e567?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" width='100%' height='150px'/>  
       </div>      
       <h3>در کدام مناطق تهران آپارتمان یک میلیاردی پیدا می‌شود؟</h3>
       هر چند قیمت‌های پیشنهادی فروش آپارتمان‌های مسکونی در تهران تابع انتظارات تورمی برخی فروشندگان شده و عده‌ای با وجود رکود معاملاتی، بر افزایش قیمت اعلامی خود به بنگاه‌های ملکی اصرار دارند، اما با این حال قیمت‌های منصفانه نیز در بازار نایاب نشده و به ویژه در مناطق مصرفی نیمه جنوبی شهر، یافتن آپارتمان‌های متناسب با بودجه خانه‌اولی‌ها شدنی است.<br>
@@ -167,7 +188,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/24/bohrane_maskan.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/1199204_664.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/1199204_664.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>بحران مسکن روی میز کمیسیون عمران مجلس</h3>
       رئیس کمیسیون عمران مجلس گفت دولت باید برنامه عملیاتی برای مدیریت بازار مسکن و کاهش قیمت‌ها ارائه کند، قطعا دولت باید از انفعال در حوزه مسکن خارج شود، در غیر این صورت هیچ اتفاق مثبتی در این بخش صورت نمی‌گیرد.<br>
@@ -178,7 +199,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/24/barrasi_roshde_gheimate_12_mahe.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/1198993_438.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/1198993_438.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>بررسی رشد قیمت مسکن در ۱۲ ماه اخیر</h3>
       میانگین رشد ماهیانه قیمت مسکن شهر تهران در ۱۲ ماه گذشته ۲.۵ درصد بوده که اردیبهشت امسال بالاترین رشد به میزان ۹.۴ درصد و شهریور پارسال کمترین رشد به میزان منفی ۳.۵ درصد را تجربه کرده است.<br>
@@ -189,7 +210,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/23/roshd_sarmayeh_sakhteman_manfise.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/12109643_154.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/12109643_154.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>رشد واقعی سرمایه گذاری در ساختمان منفی ۳ بوده است</h3>
       آمار‌ها نشان می‌دهد رشد واقعی سرمایه گذاری در بخش ساختمان در سال ۹۸ منفی ۳ بوده است.<br>
@@ -200,7 +221,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/22/tarhe_meli_maskan.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/139812101249539619808454.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/139812101249539619808454.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>مهلت ۶روزه متقاضیان طرح ملی مسکن برای تکمیل اطلاعات</h3>
       مدیرکل دفتر اقتصاد مسکن طی نامه‌ای به مدیران‌کل راه و شهرسازی استان‌ها اعلام کرد ثبت‌نام‌کنندگان پیامکی طرح ملی مسکن تا ۶تیر برای تکمیل اطلاعات فرصت دارند.<br>
@@ -211,7 +232,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/22/siasate_mostager.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/1399013115050022320179794.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/1399013115050022320179794.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>سیاست دولت در حوزه ساخت و ساز مسکن و اجاره بها حمایتی است</h3>
       معاون اول رئیس جمهور با تأکید بر ضرورت ساماندهی بازار مسکن، گفت برنامه دولت برای ساماندهی بازار مسکن بکارگیری سیاست های حمایتی در حوزه ساخت و ساز مسکن و اجاره بها است<br>
@@ -222,7 +243,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/22/gharardade_maskane_mehr.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/1399032708425090520602574.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/1399032708425090520602574.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>اخذ ۲۰ میلیون تومان از قراردادهای مسکن مهر قانونی است/هدایت  مشغله کاری معاون استانداری زیاد است</h3>
       مدیرعامل شرکت عمران پردیس در واکنش به اظهارات معاون عمرانی استانداری تهران، گفت  اخذ ۲۰ میلیون تومان از قراردادهای مسکن مهر قانونی است.<br>
@@ -233,7 +254,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/22/baste_mostager.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/1398032513534295917655464.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/1398032513534295917655464.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>خبر خوش وزیر راه برای مستأجران/ اسلامی- ۲ بسته سیاستی و حمایتی برای بازار مسکن در راه است</h3>
       وزیر راه و شهرسازی از ارائه دو بسته سیاستی - حمایتی برای ساماندهی بازار مسکن و حمایت از مستاجران خبر داد.<br>
@@ -244,7 +265,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/21/sakht_maskan_mehr.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/12079940_281.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/12079940_281.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>ساخت مسکن مهر تا شهریور ماه به اتمام می رسد</h3>
       ساخت مسکن مهر در شهرهای جدید با تزریق منابع مالی ۳۵۰ میلیارد تومانی تا پایان شهریور ماه به اتمام می‌رسد.<br>
@@ -255,7 +276,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/21/maskan_kamdaramadha.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/12091010_759.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/12091010_759.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>جلسه بررسی ساماندهی بازار اجاره مسکن برگزار می‌شود/اجرای طرح مسکن کم درآمدها در شهرها</h3>
       محمودزاده گفت ساماندهی بازار اجاره بها و کنترل قیمت مسکن در جلسه هفته آینده کمیسیون ستاد اقتصادی، تعیین تکلیف می شود.<br>
@@ -266,7 +287,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/21/maliat_khane_khali.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://tejaratnews.com/wp-content/uploads/2020/06/3e8d4fc3-eae8-484e-bb8d-43bd8ac50941-1.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://tejaratnews.com/wp-content/uploads/2020/06/3e8d4fc3-eae8-484e-bb8d-43bd8ac50941-1.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>انتخاب سال ۹۵ برای اخذ مالیات از خانه‌های خالی مناسب نیست</h3>
       معاون مسکن و ساختمان وزیر راه و شهرسازی گفت برای طرح مالیات از خانه‌های خالی نباید محدودیت سال قرار داد و انتخاب سال ۹۵ برای این طرح قابل قبولی نخواهد داشت.<br>
@@ -277,7 +298,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/21/khanedarshodan_mostageran.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/12044265_894.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/12044265_894.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>آیا مستاجران در بورس مسکن خانه دار می‌شوند؟</h3>
       برخی تحلیلگران اقتصادی با ورود مسکن به بورس موافقند، ولی در مقابل فعالان حوزه به آن خوش بین نیستند.<br>
@@ -288,7 +309,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/21/elate_gerani.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/12087092_339.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://melkfax.s3.ir-thr-at1.arvanstorage.com/12087092_339.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>۴ علت اساسی گرانی مسکن چیست؟ / مسکن ملی با دولت دوازدهم به پایان می‌رسد</h3>
       خسروی گفت ایجاد نوسان قیمتی در ۴ مولفه از جمله طلا، ارز، بورس و حامل‌های انرژی باعث گرانی مسکن می‌شوند.<br>
@@ -299,7 +320,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/16/tedade_mostagern.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://static3.eghtesadnews.com/thumbnail/LiDP8qElieax/kzxwgq-JKBXtdnsW2DbwP_oAq30e7qnHfcABTZgEjDPeX92dFRclofcUt7bhCS5RywpgzrCJSonkiG3pI_QvVJMtK7Jf75PBVuPMdL_aMUUx2b6GkjiGOQ,,/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86+-+%D9%85%D8%B3%DA%A9%D9%86.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://static3.eghtesadnews.com/thumbnail/LiDP8qElieax/kzxwgq-JKBXtdnsW2DbwP_oAq30e7qnHfcABTZgEjDPeX92dFRclofcUt7bhCS5RywpgzrCJSonkiG3pI_QvVJMtK7Jf75PBVuPMdL_aMUUx2b6GkjiGOQ,,/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86+-+%D9%85%D8%B3%DA%A9%D9%86.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>اعلام تعداد مستاجران در پایتخت؛ چند درصد ایرانی‌ها صاحبخانه هستند؟</h3>
       وزیر راه و شهرسازی جزییات بسته حمایتی دولت از بازار مسکن را تشریح کرد.<br>
@@ -310,7 +331,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/16/takhalofe_sakhteman.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://static3.donya-e-eqtesad.com/thumbnail/lRjWArJrOf39/vXJwwA1o8rIoZ7wrPHPV-QYqssTF6UH1BwhMCHO9O4SdbVkfXsgGzrd8t4zyrU37lBH-hXHgenSPkchyUb3fFQ8Bvzddp2ShWanv0XkFS-T4k5W3xf-zMg,,/07-01.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://static3.donya-e-eqtesad.com/thumbnail/lRjWArJrOf39/vXJwwA1o8rIoZ7wrPHPV-QYqssTF6UH1BwhMCHO9O4SdbVkfXsgGzrd8t4zyrU37lBH-hXHgenSPkchyUb3fFQ8Bvzddp2ShWanv0XkFS-T4k5W3xf-zMg,,/07-01.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>جهش ۱۰۲ درصدی جرایم تخلفات ساختمانی در تهران؛ آیا تعرفه‌های سال ۹۹ مانع تخلفات می‌شود؟</h3>
       نرخ جریمه تخلفات ساختمانی در تهران برای اعمال در پرونده‌های سال ۹۹ به شکل قابل‌توجهی تغییر کرد.<br>
@@ -321,7 +342,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/16/samane_amlak.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://tejaratnews.com/wp-content/uploads/2020/06/3e8d4fc3-eae8-484e-bb8d-43bd8ac50941-1.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://tejaratnews.com/wp-content/uploads/2020/06/3e8d4fc3-eae8-484e-bb8d-43bd8ac50941-1.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>راه‌اندازی سامانه ملی املاک و اسکان تا چند روز آینده</h3>
       رئیس اتحادیه مشاوران املاک از راه‌اندازی سامانه ملی املاک و اسکان تا چند روز آینده خبر داد.<br>
@@ -332,7 +353,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/16/oraghe_maskan.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://images.unsplash.com/photo-1556887800-d45d2a589565?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://images.unsplash.com/photo-1556887800-d45d2a589565?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80" width='100%' height='150px'/>  
       </div>      
       <h3>قیمت اوراق خرید مسکن ارزان شد</h3>
       در حالی قیمت اوراق حق تقدم تسهیلات مسکن نیمه ماه جاری به حدود ۸۰ هزار تومان افزایش یافته بود که قیمت اوراق مذکور به زیر ۶۰ هزار تومان کاهش یافته است.<br>
@@ -343,7 +364,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/16/maliat_khane_khali.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=995&q=80" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=995&q=80" width='100%' height='150px'/>  
       </div>      
       <h3>کدام خانه‌های خالی مشمول مالیات می‌شوند؟</h3>
       بر اساس اعلام وزارت راه و شهرسازی از ابتدای تابستان امسال از خانه‌های خالی مالیات اخذ خواهد شد.<br>
@@ -354,7 +375,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/16/kahesh_gheimat.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://cdn.yjc.ir/files/fa/news/1399/3/26/12071918_864.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://cdn.yjc.ir/files/fa/news/1399/3/26/12071918_864.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>کاهش ۲۵ درصدی قیمت ساخت مسکن با اختصاص کارت اعتباری مصالح</h3>
       کارشناسان اقتصادی معتقدند ارائه کارت اعتباری مصالح ساختمان می‌تواند تا حدود ۲۵ درصد موجب کاهش قیمت تمام شده مسکن شود.<br>
@@ -365,9 +386,9 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2020/06/15/dont-buy-home.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://cdn.yjc.ir/files/fa/news/1399/3/16/12015955_474.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://cdn.yjc.ir/files/fa/news/1399/3/16/12015955_474.jpg" width='100%' height='150px'/>  
       </div>      
-      <h3>فروش مسکن در بورس به تعادل بازار کمک می‌کند؟</h3>
+      <h3>خانه گران نخرید تا ارزان شود / ۶۶ هزار واحد مسکن مهر نیمه تمام تا مهر به بهره برداری می رسد</h3>
       خانه گران نخرید تا ارزان شود / ۶۶ هزار واحد مسکن مهر نیمه تمام تا مهر به بهره برداری می رسد<br>
      
       </a>
@@ -376,7 +397,7 @@ a:hover {
     <div class='col-xs-4 col-md-3 my-3 mx-3 post'>
       <a href="/2018/08/20/fouroush-maskan-dar-bourse.html">
       <div class='overflow-hidden'>
-      <img class='lazyload' data-src="https://cdn.yjc.ir/files/fa/news/1399/3/19/12035644_207.jpg" width='100%' height='150px'/>  
+      <img class='lazyload ' data-src="https://cdn.yjc.ir/files/fa/news/1399/3/19/12035644_207.jpg" width='100%' height='150px'/>  
       </div>      
       <h3>فروش مسکن در بورس به تعادل بازار کمک می‌کند؟</h3>
       برخی کارشناسان معتقدند فروش مسکن در بورس، تاثیر چندانی در بازار مسکن ندارد و ممکن است بازار را با اختلال هم مواجه کند.<br>
