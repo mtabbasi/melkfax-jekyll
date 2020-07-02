@@ -4,7 +4,7 @@ title: تصمیمات مهم بازار اجاره اعلام شد/ برنامه
 site: باشگاه خبرنگاران جوان
 keyword: بازار مسکن ، ساخت وساز ، بازار اجاره
 source-url: https://www.yjc.ir/00V4Kx
-image: https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=30
+image: https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80
 subtitle: مهم ترین تصمیمات بازار اجاره ملک این روزها از سوی دولت و همچنین مجلس نهایی شده است.
 ---
 به گزارش خبرنگار راه و شهرسازی گروه اقتصادی باشگاه خبرنگاران جوان، امروز در جلسه ستاد مقابله با کرونا تصمیمات مهمی برای کنترل بازار اجاره اخذ شد که این تصمیمات خود می تواند بخشی از التهاب در بازار مسکن را کاهش دهد. با اعلام شدن حد نصاب افزایش اجاره‌بها بخشی از مستاجران به آرامش رسیدند.
