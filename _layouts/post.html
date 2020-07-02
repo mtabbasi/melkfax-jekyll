@@ -11,7 +11,7 @@
 
   gtag('config', 'UA-169029506-1');
 </script>
-<script type='module' defer>
+<script type='module'>
 import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
 const el = document.createElement('pwa-update');
 document.body.appendChild(el);
@@ -33,7 +33,7 @@ document.body.appendChild(el);
   <meta name="description" content="{{page.description}}" />
   <meta name="keywords" content="{{page.keyword}}" />
   <link rel='manifest' href='/manifest.json'>
-  <link rel="preload" as="style" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" as="style">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" defer></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" defer></script>
