@@ -33,6 +33,7 @@ document.body.appendChild(el);
   <meta name="keywords" content="ملک فکس,خرید ,آپارتمان,موتور جست و جوی ملک,مرجع خرید,اجاره,رهن,پیش فروش,کلنگی,مسکن,house,home,iran,melkfax,home,rent,melk,kharide,ejare,aparteman,melkfax.ir" />
   <meta name="description" content="ملک فکس | اخبار ملک" />
          <link rel='manifest' href='/manifest.json'>
+         
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -40,12 +41,18 @@ document.body.appendChild(el);
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <style>
    
-        @import url("https://cdn.fontcdn.ir/Font/Persian/Samim/Samim.css");
-        @font-face {
-           font-display: swap;
+   @font-face {
+      font-family: Samim;
+      src: url('http://fonts.codearena.ir/rastikerdar/samim/samim.eot');
+      src: url('http://fonts.codearena.ir/rastikerdar/samim/samim.eot?#iefix') format('embedded-opentype'),
+           url('http://fonts.codearena.ir/rastikerdar/samim/samim.woff') format('woff'),
+           url('http://fonts.codearena.ir/rastikerdar/samim/samim.ttf') format('truetype');
+      font-weight: normal;
+      font-display: swap;
 
 
-        }
+    }
+       
 body ,html{
             font-family:Samim;
             direction:rtl;
@@ -54,7 +61,7 @@ body ,html{
         }
         img{
           border-radius: 10px;
-          transition: transform 1s ease;  
+          transition: transform .1s ease;  
 
         }
         
