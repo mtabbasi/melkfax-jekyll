@@ -31,11 +31,9 @@
   </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>مشاوران املاک اراک</title>
-  <meta name="description"
-    content="لیست مشاورین املاک اراک" />
-  <meta name="keywords"
-    content="ملک فکس,مشاور,اراک,بنگاه اراک,مشاور,املاک" />
+  <title>مشاوران املاک تهران</title>
+  <meta name="description" content="لیست مشاورین املاک تهران" />
+  <meta name="keywords" content="ملک فکس,مشاور,تهران,بنگاه تهران,مشاور,املاک" />
   <meta name="language" content="Persian" />
   <link rel='manifest' href='/manifest.json'>
 
@@ -129,16 +127,16 @@
     .navbar {
       border-bottom: 1px solid #1d9aa3;
     }
-    .table td,.table th {
-   text-align: center;   
-}
 
-  
+    .table td,
+    .table th {
+      text-align: center;
+    }
   </style>
 </head>
 
 <body>
-  
+
   <div class='container'>
     <!-- A grey horizontal navbar that becomes vertical on small screens -->
     {% include main-navigation.html %}
@@ -155,9 +153,11 @@
         </tr>
       </thead>
       <tbody>
-        {% for member in site.data.arak %}
+        {% for member in site.data.tehran %}
+        {% if member.province != null %}
         <tr>
           <th scope="row">{{forloop.index}}</th>
+
           <td>{{member.province}}</td>
           <td>{{member.city}}</td>
           <td>{{member.id}}</td>
@@ -165,7 +165,9 @@
           <td>{{member.phone}}</td>
           <td>{{member.phone_number}}</td>
 
+
         </tr>
+        {% endif %}
         {% endfor %}
       </tbody>
     </table>
