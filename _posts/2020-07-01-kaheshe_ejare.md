@@ -4,7 +4,7 @@ title: قیمت اجاره مسکن به زودی کاهش می‌یابد
 site: باشگاه خبرنگاران جوان
 keyword: قیمت مسکن ، احاره مسکن
 source-url: https://www.yjc.ir/00V4Sh
-image: https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
+image: https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=30
 subtitle: یک کارشناس بازار مسکن گفت اخذ مالیات از خانه‌های خالی موجب بهبود اوضاع بازار مسکن و کاهش قیمت اجاره‌ها می‌شود.
 ---
 احمد سرحدی کارشناس بازار مسکن در گفت‌وگو با خبرنگار راه و شهرسازی  گروه اقتصادی باشگاه خبرنگاران جوان، در خصوص تاثیر اخذ مالیات از خانه‌های خالی اظهار کرد: این طرح سالیان گذشته در کشور مطرح شده بود، اما طی چند روز گذشته دولت و مجلس با اجرای آن موافقت کردند.
