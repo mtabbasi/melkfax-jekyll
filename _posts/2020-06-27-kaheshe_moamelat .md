@@ -4,6 +4,7 @@ title: کاهش معاملات مسکن با افزایش قیمت
 site: پایگاه خبری بانک مسکن
 keyword: بانک مرکزی ، بانک مسکن ، مصالح ساختمانی
 source-url: http://www.hibna.ir/Fa/News/71438
+permalink : blog/کاهش-معاملات-مسکن-با-افزایش-قیمت.html
 image: https://melkfax.s3.ir-thr-at1.arvanstorage.com/202006100204358139_Orig.jpg
 subtitle: معاملات خرید و فروش آپارتمان در تهران در خرداد امسال ۴ درصد نسبت به اردیبهشت کاهش پیدا کرد.
 ---

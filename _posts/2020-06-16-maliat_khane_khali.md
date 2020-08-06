@@ -2,6 +2,7 @@
 layout: post
 title: کدام خانه‌های خالی مشمول مالیات می‌شوند؟
 site: تجارت نیوز
+permalink : blog/کدام-خانه-های-خالی-مشمول-مالیات-میشوند.html
 keyword: مالیات بر خانه‌های خالی,اخذ مالیات,خانه های خالی
 source-url: https://tejaratnews.com/%da%a9%d8%af%d8%a7%d9%85-%d8%ae%d8%a7%d9%86%d9%87-%d9%87%d8%a7%db%8c-%d8%ae%d8%a7%d9%84%db%8c-%d9%85%d8%b4%d9%85%d9%88%d9%84-%d9%85%d8%a7%d9%84%db%8c%d8%a7%d8%aa-%d9%85%db%8c-%d8%b4%d9%88%d9%86%d8%af
 image: https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=995&q=80

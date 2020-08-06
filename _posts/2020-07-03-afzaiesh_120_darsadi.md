@@ -3,6 +3,8 @@ layout: post
 title: افزایش ۱۲۱ درصدی قیمت مسکن در تهران طی ۲۰ ماه اخیر
 site: خبرگزاری تسنیم
 keyword: بازار مسکن ، قیمت مسکن
+permalink : blog/افزایش-۱۲۱-درصدی-قیمت-مسکن-در-تهران-طی-۲۰-ماه-اخیر.html
+
 source-url: https://tn.ai/2298137
 image: https://images.unsplash.com/photo-1537032618157-6a806832d184?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 subtitle: بررسی آمار رسمی وزارت راه و شهرسازی حاکی از آن است که از مهرماه ۹۷ تا خرداد ۹۹ قیمت مسکن در تهران ۱۲۱ درصد افزایش یافته است.

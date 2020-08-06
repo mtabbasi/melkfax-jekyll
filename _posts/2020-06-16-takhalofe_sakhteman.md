@@ -3,6 +3,8 @@ layout: post
 title: جهش ۱۰۲ درصدی جرایم تخلفات ساختمانی در تهران؛ آیا تعرفه‌های سال ۹۹ مانع تخلفات می‌شود؟
 site: اقتصاد نیوز
 keyword: شورای شهر,شهر تهران,قانون,مد,معماری
+permalink : blog/جهش-۱۰۲-درصدی-جرایم-تخلفات-ساختمانی-در-تهران-آیا-تعرفه‌های-سال-۹۹-مانع-تخلفات-می‌شود.html
+
 source-url: https://www.eghtesadnews.com/fa/tiny/news-343183
 image: https://static3.donya-e-eqtesad.com/thumbnail/lRjWArJrOf39/vXJwwA1o8rIoZ7wrPHPV-QYqssTF6UH1BwhMCHO9O4SdbVkfXsgGzrd8t4zyrU37lBH-hXHgenSPkchyUb3fFQ8Bvzddp2ShWanv0XkFS-T4k5W3xf-zMg,,/07-01.jpg
 subtitle: نرخ جریمه تخلفات ساختمانی در تهران برای اعمال در پرونده‌های سال ۹۹ به شکل قابل‌توجهی تغییر کرد.

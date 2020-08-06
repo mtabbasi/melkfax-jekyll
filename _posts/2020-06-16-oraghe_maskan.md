@@ -3,6 +3,8 @@ layout: post
 title: قیمت اوراق خرید مسکن ارزان شد
 site: تسنیم
 keyword: مالیات بر خانه‌های خالی,اخذ مالیات,خانه های خالی
+permalink : blog/قیمت-اوراق-خرید-مسکن-ارزان-شد.html
+
 source-url: https://www.tasnimnews.com/fa/news/1399/03/27/2287192/%DA%A9%D8%A7%D9%87%D8%B4-%D9%82%DB%8C%D9%85%D8%AA-%D8%A7%D9%88%D8%B1%D8%A7%D9%82-%D9%88%D8%A7%D9%85-%D9%85%D8%B3%DA%A9%D9%86-%D8%A8%D9%87-%D8%B2%DB%8C%D8%B1-60-%D9%87%D8%B2%D8%A7%D8%B1-%D8%AA%D9%88%D9%85%D8%A7%D9%86
 image: https://images.unsplash.com/photo-1556887800-d45d2a589565?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80
 subtitle: در حالی قیمت اوراق حق تقدم تسهیلات مسکن نیمه ماه جاری به حدود ۸۰ هزار تومان افزایش یافته بود که قیمت اوراق مذکور به زیر ۶۰ هزار تومان کاهش یافته است.

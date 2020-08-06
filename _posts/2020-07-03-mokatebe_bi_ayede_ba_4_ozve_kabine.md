@@ -3,6 +3,7 @@ layout: post
 title: مکاتبه بی‌فایده با ۴ عضو کابینه برای حل معضل مسکن/ دولت اراده حل مشکل را دارد؟
 site: خبرگزاری تسنیم
 keyword: بازار مسکن ، قیمت مسکن
+permalink : blog/مکاتبه-بی-فایده-با-4-عضو-کابینه-برای-حل-معضل-مسکن.html
 source-url: https://tn.ai/2299004
 image: https://images.unsplash.com/photo-1549206736-547f9d19eb02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80
 subtitle: رئیس کانون سراسری انبوه‌سازان ایران گفت عوارض متعدد و افزایش قیمت نهاده‌هایی که بیشتر آن‌ها دولتی است موجب افزایش قیمت تمام‌شده مسکن شده است.

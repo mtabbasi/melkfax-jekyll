@@ -3,6 +3,7 @@ layout: post
 title: افزایش ۴۰۰ درصدی قیمت مسکن در دولت روحانی
 site: خبرگزاری تسنیم
 keyword: بازار مسکن ، قیمت مسکن
+permalink : blog/افزایش-۴۰۰-درصدی-قیمت-مسکن-در-دولت-روحانی.html
 source-url: https://tn.ai/2299025
 image: https://images.unsplash.com/photo-1549462541-9b46952297c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80
 subtitle: بررسی آمار رسمی وزارت راه و شهرسازی حاکی از آن است که از مردادماه سال ۹۲ تا خرداد ۹۹ قیمت مسکن در تهران حدود ۴۰۰ درصد افزایش یافته است.

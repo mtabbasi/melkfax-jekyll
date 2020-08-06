@@ -4,6 +4,7 @@ title: تصمیمات مهم بازار اجاره اعلام شد/ برنامه
 site: باشگاه خبرنگاران جوان
 keyword: بازار مسکن ، ساخت وساز ، بازار اجاره
 source-url: https://www.yjc.ir/00V4Kx
+permalink : blog/تصمیمات-مهم-بازار-اجاره-اعلام-شد-برنامه‌ای-برای-ساخت-واحد-۲۵-متری-نیست.html
 image: https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80
 subtitle: مهم ترین تصمیمات بازار اجاره ملک این روزها از سوی دولت و همچنین مجلس نهایی شده است.
 ---

@@ -4,6 +4,8 @@ title: رشد واقعی سرمایه گذاری در ساختمان منفی ۳
 site: باشگاه خبرنگاران جوان
 keyword: اتاق بازرگانی ، مسکن ملی
 source-url: https://www.yjc.ir/00V2ir 
+permalink : blog/-رشد-واقعی-سرمایه-گذاری-در-ساختمان-منفی-۳-بوده-است.html
+
 image: https://melkfax.s3.ir-thr-at1.arvanstorage.com/12109643_154.jpg
 subtitle: آمار‌ها نشان می‌دهد رشد واقعی سرمایه گذاری در بخش ساختمان در سال ۹۸ منفی ۳ بوده است.
 ---

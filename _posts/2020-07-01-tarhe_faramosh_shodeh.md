@@ -3,6 +3,7 @@ layout: post
 title: ارزانی مسکن با اجرای طرحی فراموش شده!
 site: باشگاه خبرنگاران جوان
 keyword: بازار مسکن ، بافت فرسوده
+permalink : blog/ارزانی-مسکن-با-اجرای-طرحی-فراموش-شده.html
 source-url: https://www.yjc.ir/00V3rc
 image: https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=30
 subtitle: ارزانی مسکن این روز‌ها با فرمول‌های مختلف بررسی می‌شود اما در این بین طرحی که برای نوسازی بافت فرسوده و ارائه مسکن جدید کلید خورده بود فراموش شده است

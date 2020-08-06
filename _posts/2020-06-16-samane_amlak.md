@@ -3,6 +3,8 @@ layout: post
 title: راه‌اندازی سامانه ملی املاک و اسکان تا چند روز آینده
 site: تجارت نیوز
 keyword: مصطفی‌قلی خسروی,مسكن,ماليات,سامانه ملی املاک
+permalink : blog/راه‌اندازی-سامانه-ملی-املاک-و-اسکان-تا-چند-روز-آینده.html
+
 source-url: https://tejaratnews.com/%d8%b1%d8%a7%d9%87%e2%80%8c%d8%a7%d9%86%d8%af%d8%a7%d8%b2%db%8c-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d9%85%d9%84%db%8c-%d8%a7%d9%85%d9%84%d8%a7%da%a9
 image: https://tejaratnews.com/wp-content/uploads/2020/06/3e8d4fc3-eae8-484e-bb8d-43bd8ac50941-1.jpg
 subtitle: رئیس اتحادیه مشاوران املاک از راه‌اندازی سامانه ملی املاک و اسکان تا چند روز آینده خبر داد.

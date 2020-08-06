@@ -4,6 +4,8 @@ title: اعلام تعداد مستاجران در پایتخت؛ چند درص�
 site: اقتصاد نیوز
 keyword: پایتخت,دستمزد,دولت,مسکن,وزیر راه و شهرسازی
 source-url: https://www.eghtesadnews.com/fa/tiny/news-343183
+permalink : blog/-اعلام-تعداد-مستاجران-در-پایتخت-چند-درصد-ایرانی‌ها-صاحبخانه-هستند.html
+
 image: https://static3.eghtesadnews.com/thumbnail/LiDP8qElieax/kzxwgq-JKBXtdnsW2DbwP_oAq30e7qnHfcABTZgEjDPeX92dFRclofcUt7bhCS5RywpgzrCJSonkiG3pI_QvVJMtK7Jf75PBVuPMdL_aMUUx2b6GkjiGOQ,,/%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86+-+%D9%85%D8%B3%DA%A9%D9%86.jpg
 subtitle: وزیر راه و شهرسازی جزییات بسته حمایتی دولت از بازار مسکن را تشریح کرد.
 ---
